@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Scratch Page</title>
+    <link rel="stylesheet" href="scratch.css">
+</head>
+<body>
+    <!-- On-page anchor target -->
+    <a id="top"></a>
+
+    <h1>My Scratch Page – My Hobby</h1>
+    <p style="text-align: center;">This page shows what I’ve learned in HTML and CSS from scratch.</p>
+
+    <!-- Link back to home page -->
+    <p style="text-align: center;">
+        <a href="index.html">Back to Home Page</a>
+    </p>
+
+    <!-- First content box (uses .box from your CSS) -->
+    <div class="box">
+        <h2>Why I Like This Hobby</h2>
+        <p>
+            Write a few sentences here about something you enjoy (gaming, sports, music, hiking, etc.).
+            You can change this text later to match your real hobby.
+        </p>
+
+        <!-- Image not from Bootstrap theme -->
+        <img class="my-image" 
+             src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" 
+             alt="Example hobby image">
+        <p><small>This is an example image from the internet (not from the Bootstrap theme).</small></p>
+    </div>
+
+    <!-- Second content box with ordered list containing an unordered list -->
+    <div class="box">
+        <h2>How I Get Better at My Hobby</h2>
+        <ol>
+            <li>Practice Routine
+                <ul>
+                    <li>Set aside specific time each week</li>
+                    <li>Focus on one skill at a time</li>
+                    <li>Review what went well and what didn’t</li>
+                </ul>
+            </li>
+            <li>Learning
+                <ul>
+                    <li>Watch tutorials or guides</li>
+                    <li>Ask friends or communities for tips</li>
+                </ul>
+            </li>
+            <li>Have Fun
+                <ul>
+                    <li>Try new things</li>
+                    <li>Don’t stress about being perfect</li>
+                </ul>
+            </li>
+        </ol>
+        <p><strong>Notice:</strong> This is an <em>ordered list</em> (numbers) with <em>unordered lists</em> (bullets) inside it — exactly what your assignment requires.</p>
+    </div>
+
+    <!-- Third content box with YouTube video -->
+    <div class="box" id="video-section">
+        <h2>Cool YouTube Video About My Hobby</h2>
+        <p>You can replace this video with any YouTube video that matches your hobby.</p>
+
+        <!-- Embedded YouTube video -->
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+        <!-- Tableau section placeholder -->
+    <div class="box" id="tableau-section">
+        <h2>Interactive Tableau Graph</h2>
+        <div class='tableauPlaceholder' id='viz1765311217039' style='position: relative'><noscript><a href='#'><img alt='1. Summary ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HelpDeskRWFD_17334321633050&#47;1_Summary&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HelpDeskRWFD_17334321633050&#47;1_Summary' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HelpDeskRWFD_17334321633050&#47;1_Summary&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1765311217039');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1450px';vizElement.style.height='967px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1450px';vizElement.style.height='967px';} else { vizElement.style.width='100%';vizElement.style.height='4777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+
+    <!-- Link to my web app page -->
+    <div class="box">
+        <h2>My Web App</h2>
+        <p>
+            I also created a small web app as part of this project.
+            You can open it here:
+        </p>
+        <p>
+            <a href="webapp.html">Go to my web app</a>
+        </p>
+    </div>
+
+    <!-- Link that uses the on-page anchor -->
+    <p style="text-align: center;">
+        
+        <a href="#top">Back to Top</a>
+    </p>
+
+</body>
+</html>
